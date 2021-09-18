@@ -22,9 +22,9 @@
             <div class="button">
                 <button class="buttons" id="one" onclick="erase()">C</button>
                 
-                <button class="buttons" id="divide" onclick="buttonClick()">/</button>
-                <button class="buttons" id="into" onclick="buttonClick()">*</button>
-                <button class="buttons" id="minus" onclick="buttonClick()">-</button>
+                <button class="buttons" id="divide" onclick="buttonClick('/')">/</button>
+                <button class="buttons" id="into" onclick="buttonClick('*')">*</button>
+                <button class="buttons" id="minus" onclick="buttonClick('-')">-</button>
                 <button class="equal" id="equal" onclick="buttonClick(0)">0</button>
                 <br>
                 
@@ -32,7 +32,7 @@
                 <button class="buttons" id="two" onclick="buttonClick(2)">2</button>
                 <button class="buttons" id="three" onclick="buttonClick(3)">3</button>
                 <div class="plusButton" >
-                    <button class="plus" id="plus" onclick="get()">+</button>
+                    <button class="plus" id="plus" onclick="buttonClick('+')">+</button>
                 </div>
                 <br>
                 <button class="buttons" id="four" onclick="buttonClick(4)">4</button>
@@ -42,7 +42,7 @@
                 <button class="buttons" id="seven" onclick="buttonClick(7)">7</button>
                 <button class="buttons" id="eight" onclick="buttonClick(8)">8</button>
                 <button class="buttons" id="nine" onclick="buttonClick(9)">9</button>
-                <button class="equal" id="equal" onclick="buttonClick()">=</button>
+                <button class="equal" id="equal" onclick="result()">=</button>
                 <br>
                
                
